@@ -1,0 +1,7 @@
+cat > .gitignore <<'EOF'
+.DS_Store
+.Rhistory
+__pycache__/
+*.pyc
+archive/*.jsonl
+EOF
