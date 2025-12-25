@@ -1,0 +1,5 @@
+.DS_Store
+.Rhistory
+archive/*.jsonl
+__pycache__/
+*.pyc
