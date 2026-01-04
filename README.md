@@ -89,3 +89,15 @@ Un score probabiliste `ml_risk` ∈ [0,1] est calculé dans le consumer à l’a
 d’une fonction logistique basée sur les valeurs systolique et diastolique.
 Ce score complète les règles cliniques déterministes et est visualisé
 dans Kibana.
+---
+
+## Dépendances Python
+
+⚠️ Le projet est conçu pour être exécuté via **Docker**.
+
+Les dépendances sont installées automatiquement dans chaque conteneur via :
+- `producer/requirements.txt`
+- `consumer/requirements.txt`
+
+Un fichier `requirements.txt` est également présent à la racine
+à titre **informatif** pour la lecture du projet.
